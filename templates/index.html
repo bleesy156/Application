@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta charset = 'UTF-8'>
+        <title> Water Quality Predictor </title>
+    </head>
+
+    <body>
+        <h1>Water Quality Predictor</h1>
+        {% if result %}
+            <p>{{result}}</p>
+        {% endif %}
+            <form method ='post' action ='/predict'>
+
+                <label>Aluminium</label><br>
+                <input type ='text' name ="aluminium"><br><br>
+
+                <label>Ammonia</label><br>
+                <input type ='text' name ="ammonia"><br><br>
+
+                <label>Arsenic</label><br>
+                <input type ='text' name ="arsenic"><br><br>
+
+                <label>Barium</label><br>
+                <input type ='text' name ="barium"><br><br>
+
+                <label>Cadmium</label><br>
+                <input type ='text' name ="cadmium"><br><br>
+
+                <label>Chloramine</label><br>
+                <input type ='text' name ="chloramine"><br><br>
+
+                <label>Chromium</label><br>
+                <input type ='text' name ="chromium"><br><br>
+
+                <label>Copper</label><br>
+                <input type ='text' name ="copper"><br><br>
+
+                <label>Flouride</label><br>
+                <input type ='text' name ="flouride"><br><br>
+
+                <label>Bacteria</label><br>
+                <input type ='text' name ="bacteria"><br><br>
+
+                <label>Viruses</label><br>
+                <input type ='text' name ="viruses"><br><br>
+
+                <label>Lead</label><br>
+                <input type ='text' name ="lead"><br><br>
+
+                <label>Nitrates</label><br>
+                <input type ='text' name ="nitrates"><br><br>
+
+                <label>Nitrites</label><br>
+                <input type ='text' name ="nitrites"><br><br>
+
+                <label>Mercury</label><br>
+                <input type ='text' name ="mercury"><br><br>
+
+                <label>Perchlorate</label><br>
+                <input type ='text' name ="perchlorate"><br><br>
+
+                <label>Radium</label><br>
+                <input type ='text' name ="radium"><br><br>
+
+                <label>Selenium</label><br>
+                <input type ='text' name ="selenium"><br><br>
+
+                <label>Silver</label><br>
+                <input type ='text' name ="silver"><br><br>
+
+                <label>Uranium</label><br>
+                <input type ='text' name ="uranium"><br><br>
+
+                <input type = 'submit' value ='Predict'><br><br>
+            </form>
+        
+    </body>
+</html>
